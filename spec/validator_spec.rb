@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'spec_helper'
-require_relative '../lib/validator'
 
 describe Validator do
   subject { described_class.new(file_path).call }

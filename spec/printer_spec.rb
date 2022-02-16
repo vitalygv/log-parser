@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'spec_helper'
-require_relative '../lib/printer'
 
 describe Printer do
   subject { described_class.new(sorted_views) }

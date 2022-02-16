@@ -1,12 +1,6 @@
 # frozen_string_literal: true
 
 require 'spec_helper'
-require_relative '../lib/log_parser'
-require_relative '../lib/counter'
-require_relative '../lib/parser'
-require_relative '../lib/printer'
-require_relative '../lib/sorter'
-require_relative '../lib/validator'
 
 describe LogParser do
   subject { described_class.new(log_file) }

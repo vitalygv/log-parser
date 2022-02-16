@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'spec_helper'
-require_relative '../lib/counter'
 
 describe Counter do
   subject { described_class.new }

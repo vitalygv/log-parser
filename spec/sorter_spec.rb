@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'spec_helper'
-require_relative '../lib/sorter'
 
 describe Sorter do
   subject { described_class.new(parsed_file) }
